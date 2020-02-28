@@ -1,0 +1,41 @@
+@import "./variables";
+body {
+  background-color: $light-gray;
+  font-family: $site-font;
+  .main-container {
+    margin-top: 80px;
+  }
+  .navbar {
+    background-color: $primary-color;
+    height: 78px;
+  }
+  .navbar-brand {
+    font-size: 2rem;
+  }
+  .nav-item {
+    a {
+      font-size: 1.2rem;
+      color: $white;
+    }
+    a:hover,
+    a:active {
+      color: $secondary-color;
+      text-decoration: underline;
+    }
+    .active {
+      color: $secondary-color;
+      text-decoration: underline;
+    }
+  }
+  .navbar-light .navbar-nav .nav-link,
+  .navbar-light .navbar-brand {
+    color: $white;
+    &:hover {
+      color: $secondary-color;
+    }
+  }
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+}
