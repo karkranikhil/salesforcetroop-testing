@@ -9,7 +9,6 @@ import {
   NavbarBrand,
   Nav,
   NavItem,
-  NavLink,
 } from "reactstrap"
 
 const Header = ({ siteTitle }) => {
@@ -28,22 +27,27 @@ const Header = ({ siteTitle }) => {
                   LWC
                 </Link>
               </div>
-              {/* <NavLink href="/lwc">LWC</NavLink> */}
             </NavItem>
             <NavItem>
-              <NavLink href="/aura" activeClassName="active">
-                AURA
-              </NavLink>
+              <div className="nav-link">
+                <Link to="/aura" activeClassName="active">
+                  AURA
+                </Link>
+              </div>
             </NavItem>
             <NavItem>
-              <NavLink href="/integration" activeClassName="active">
-                Integration
-              </NavLink>
+              <div className="nav-link">
+                <Link to="/integration" activeClassName="active">
+                  Integration
+                </Link>
+              </div>
             </NavItem>
             <NavItem>
-              <NavLink href="/einstein" activeClassName="active">
-                Einstein
-              </NavLink>
+              <div className="nav-link">
+                <Link to="/einstein" activeClassName="active">
+                  Einstein
+                </Link>
+              </div>
             </NavItem>
           </Nav>
         </Collapse>

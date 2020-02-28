@@ -27,12 +27,15 @@ body {
       text-decoration: underline;
     }
   }
-  .navbar-light .navbar-nav .nav-link,
+
   .navbar-light .navbar-brand {
-    color: $white;
-    &:hover {
-      color: $secondary-color;
-    }
+    color: $secondary-color;
+    font-weight: 700;
+  }
+  .navbar-light .navbar-brand:hover,
+  .navbar-light .navbar-brand:active,
+  .navbar-light .navbar-brand:visited {
+    color: $secondary-color;
   }
   ul {
     list-style: none;
