@@ -2,6 +2,7 @@
 body {
   background-color: $light-gray;
   font-family: $site-font;
+  height: 100%;
   .main-container {
     margin-top: 80px;
   }
@@ -40,5 +41,18 @@ body {
   ul {
     list-style: none;
     padding: 0;
+  }
+  .thumbnail {
+    max-width: 300px;
+    width: 300px;
+  }
+  footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: $primary-color;
+    color: white;
+    text-align: center;
   }
 }

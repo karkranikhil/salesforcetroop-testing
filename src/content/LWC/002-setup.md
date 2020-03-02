@@ -5,6 +5,7 @@ title: "LWC Setup using VScode"
 author: "Nikhil Karkra"
 description: "This is my very second post of 2020!"
 category: "LWC"
+image: '../../images/512x512.png'
 ---
 
 This is my first post on my new fake blog! How exciting!
